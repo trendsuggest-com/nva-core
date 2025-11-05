@@ -57,7 +57,7 @@ It’s **security as topology** — a modular construct you can scale, stack, or
 
 ### 🧩 Endpoint-Driven Governance
 
-NVA-CORE operates through the principle of **Endpoint Control** — where every path defines its own security posture.
+NVA-CORE operates through the principle of **Endpoint Control** — where every path defines its own security posture. Can add any number of endpoints.
 
 |Endpoint Type|Security Layer|Behavior|
 |---|---|---|
@@ -138,3 +138,6 @@ That’s why it’s called **Agis** —
 because once deployed, it doesn’t just _guard your app_ — it **thinks with it**.
 
 ---
+
+
+Note : we will soon post How to configure and use settings at trendsuggest.com
