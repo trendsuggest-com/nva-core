@@ -16,7 +16,7 @@
 
 ### Not Just a Proxy — a Modular Security Fabric
 
-At its core, **NVA-CORE** isn’t built to _forward requests_ — it’s built to **govern digital movement**.  
+At its core, **NVA-CORE** isn’t built just to _forward requests_ — it’s built to **govern digital movement**.  
 Every request, every endpoint, every token exchange passes through a composable, event-aware layer that you control — piece by piece, like **digital Lego**.
 
 Instead of being a fixed-function proxy, NVA-CORE acts as a **programmable control layer**.  
