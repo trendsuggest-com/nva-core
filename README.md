@@ -4,7 +4,7 @@
 ![Docker Image](https://img.shields.io/badge/trendsuggest-com/nva-core)
 
 
-## **NVA-CORE** a **composable security and control fabric**,
+## **NVA-CORE** a **composable security and control fabric** (not just a reverse proxy)
 
 
 ---
