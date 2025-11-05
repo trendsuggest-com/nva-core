@@ -40,7 +40,7 @@ Every component of NVA-CORE is designed to **snap together cleanly**:
 
 You can run **a single NVA** for a small-scale edge or **a cluster of NVAs** forming a custom mesh:
 
-- **Load Balancer Fabric** — distribute requests intelligently based on JWT claims, tokens, or client profiles.
+- **Load Balancer Fabric** — distribute requests based on JWT claims, tokens.
     
 - **Corporate Security Gate** — restrict access per department or IP range with endpoint-based isolation.
     
@@ -57,9 +57,9 @@ It’s **security as topology** — a modular construct you can scale, stack, or
 
 ### 🧩 Endpoint-Driven Governance
 
-NVA-CORE operates through the principle of **Endpoint Control** — where every path defines its own security posture. Can add any number of endpoints.
+NVA-CORE operates through the principle of **Endpoint Control** — where every path defines its own security posture. You can add any number of endpoints.
 
-|Endpoint Type|Security Layer|Behavior|
+|Endpoint example|Security Layer|Behavior|
 |---|---|---|
 |`/admin`|JWT / OTP| authentication, failure triggers block.|
 |`/public/*`|None or API Key|Public access or token-based filter.|
@@ -71,7 +71,7 @@ with **RSA**, **ECDSA**, and **Ed25519 (EdDSA)** support for asymmetric verifica
 All verification occurs _per-endpoint_, _per-context_, and _per-session_ — no global blind trust.
 
 **Behavioral Intelligence:**  
-When a user fails authentication or behaves abnormally, NVA-CORE tracks the event, adjusts trust metrics, and enforces temporary bans.  
+When a user fails authentication or behaves abnormally, NVA-CORE tracks the event, adjusts trust metrics, and enforces bans.  
 Even whitelisted IPs remain under observation — ensuring no trusted node can abuse its access silently.
 
 ---
