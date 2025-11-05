@@ -7,7 +7,7 @@
 
 
 ## **NVA-CORE** a **composable security and control fabric** (not just a reverse proxy)
-## Footprint < 2MB.
+### Footprint < 2MB.
 
 
 ---
