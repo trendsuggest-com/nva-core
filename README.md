@@ -1,10 +1,13 @@
-
+<p align="center">
+  <img src="assets/nvacore418.jpg" width="600" alt="Banner">
+</p>
 # nva-core
 
 ![Docker Image](https://img.shields.io/badge/trendsuggest-com/nva-core)
 
 
 ## **NVA-CORE** a **composable security and control fabric** (not just a reverse proxy)
+Footprint < 2MB.
 
 
 ---
@@ -44,7 +47,9 @@ You can run **a single NVA** for a small-scale edge or **a cluster of NVAs** for
 - **Data Isolation Nodes** — separate public and internal traffic automatically using endpoint behavior rules.
     
 - **Multi-Zone Access Map** — where each NVA instance enforces its own trust perimeter while syncing rules globally.
-    
+    <p align="center">
+  <img src="assets/nvacore76.jpg" width="600" alt="Banner">
+</p>
 
 It’s **security as topology** — a modular construct you can scale, stack, or reconfigure without re-writing core code.
 
