@@ -62,9 +62,9 @@ NVA-CORE operates through the principle of **Endpoint Control** — where every 
 |Endpoint example|Security Layer|Behavior|
 |---|---|---|
 |`/admin`|JWT / OTP| authentication, failure triggers block.|
-|`/public/*`|None or API Key|Public access or token-based filter.|
-|`/internal/*`|JWT + IP Whitelist|Restricted to trusted origin IPs only.|
-|`/relay/*`|Signature-based (X-Signature / HMAC)|Used for API bridges, automation, or data tunnels.|
+|`/public/..`|None or API Key|Public access or token-based filter.|
+|`/internal/..`|JWT + IP Whitelist|Restricted to trusted origin IPs only.|
+|`/relay/...`|Signature-based (X-Signature / HMAC)|Used for API bridges, automation, or data tunnels.|
 
 **JWT Authentication** supports multiple schemes — Basic, Bearer, APIKey, X-API-Key, HMAC, X-Signature, Opaque Tokens —  
 with **RSA**, **ECDSA**, and **Ed25519 (EdDSA)** support for asymmetric verification.  
