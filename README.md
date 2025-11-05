@@ -61,7 +61,7 @@ NVA-CORE operates through the principle of **Endpoint Control** — where every 
 
 |Endpoint Type|Security Layer|Behavior|
 |---|---|---|
-|`/admin`|JWT + OTP|Full 2-step authentication, failure triggers block.|
+|`/admin`|JWT / OTP| authentication, failure triggers block.|
 |`/public/*`|None or API Key|Public access or token-based filter.|
 |`/internal/*`|JWT + IP Whitelist|Restricted to trusted origin IPs only.|
 |`/relay/*`|Signature-based (X-Signature / HMAC)|Used for API bridges, automation, or data tunnels.|
@@ -114,13 +114,13 @@ Advanced users can toggle or disable specific protections for staging, internal 
 
 You can run NVA-CORE as:
 
-- **Primary Proxy Gateway** — the entry point to your infrastructure.
+- **Primary Proxy Gateway** — the entry point to your infrastructure. HTTP(S)
     
-- **Sub-Proxy Layer** — under another reverse proxy, handling JWT or OTP validation only.
+- **Sub-Proxy Layer** — under another reverse proxy, handling JWT or OTP validation. watching with ip ban and ip white list.
     
 - **Internal Service Node** — between microservices to validate tokens and signatures inline.
     
-- **Edge Mesh Node** — where multiple NVAs communicate, forming a self-healing, distributed perimeter.
+- **Edge Mesh Node** — where multiple NVAs communicate, forming a sustaining stable and secure, distributed perimeter.
     
 
 Each instance can act independently or join a synchronized cluster — scaling from **one binary** to a **full-fledged fabric**.
