@@ -21,7 +21,7 @@ Every request, every endpoint, every token exchange passes through a composable,
 
 Instead of being a fixed-function proxy, NVA-CORE acts as a **programmable control layer**.  
 You can deploy it as a standalone gateway, a chained security node, or even an inline policy enforcer between microservices.  
-The system’s behavior changes based on how you assemble it — from a lightweight HTTP shield to a multi-node defense grid.
+The system’s behavior changes based on how you assemble it — from a lightweight HTTP/HTTPS shield to a multi-node defense grid.
 
 ---
 
