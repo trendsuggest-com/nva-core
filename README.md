@@ -47,13 +47,13 @@ You can run **a single NVA** for a small-scale edge or **a cluster of NVAs** for
 - **Data Isolation Nodes** — separate public and internal traffic automatically using endpoint behavior rules.
     
 - **Multi-Zone Access Map** — where each NVA instance enforces its own trust perimeter while syncing rules globally.
+It’s **security as topology** — a modular construct you can scale, stack, or reconfigure without re-writing core code.
+
     <p align="center">
   <img src="assets/nvacore76.jpg" width="600" alt="Banner">
 </p>
 
-It’s **security as topology** — a modular construct you can scale, stack, or reconfigure without re-writing core code.
-
----
+---  
 
 ### 🧩 Endpoint-Driven Governance
 
