@@ -194,3 +194,8 @@ You accept all risks and waive all claims against the Licensor.
 
 If you have not purchased a license: **DELETE THIS BINARY NOW.**  
 Continuing = willful infringement.
+
+
+
+
+
