@@ -10,7 +10,7 @@ REVERSE PROXY SERVER WITH JWT AUTH RATELIMIT AND SECURITY FEATURE INCLUDING IP B
 
 
 ## **NVA-CORE** a **composable security and control fabric** (not just a reverse proxy)
-### Footprint < 2MB.
+### Footprint < 3MB.
 
 
 ---
