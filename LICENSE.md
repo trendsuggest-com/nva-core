@@ -32,7 +32,7 @@ RESTRICTED ACCESS: THIS SOFTWARE IS PROVIDED EXCLUSIVELY UNDER PAID COMMERCIAL L
 
 4.1 Sole Remedy: TO THE MAXIMUM EXTENT PERMITTED BY LAW, LICENSOR’S TOTAL CUMULATIVE LIABILITY SHALL NOT EXCEED THE **AMOUNT ACTUALLY PAID BY YOU FOR YOUR PAID LICENSE TERM**.
 
-4.2 No Warranties: The Software is provided STRICTLY “AS IS” with \*\*NO WARRANTIES\*\* of any kind. You assume 100% of the risk regarding quality, performance, and security.
+4.2 No Warranties: The Software is provided STRICTLY “AS IS” with **NO WARRANTIES** of any kind. You assume 100% of the risk regarding quality, performance, and security.
 
 4.3 No Support Obligation: Licensor provides NO support, maintenance, or security advisories as a matter of right. Any communication is purely gratuitous. Licensor has \*\*ZERO liability\*\* for any delay, non-response, failure to assist, or any consequence of communication inadequacy.
 
